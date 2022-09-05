@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,65 @@ body {
 }
 
 /* Add styles here! */
+body {
+  --color-green: hsl(160deg, 100%, 30%);
+  --color-light-gold: hsl(45deg, 100%, 50%);
+  --color-dark-gold: hsl(45deg, 100%, 40%);
+  --color-black: hsl(0deg, 0%, 0%);
+  --color-very-dark-gray: hsl(0deg, 0%, 10%);
+  --color-dark-gray: hsl(0deg, 0%, 30%);
+  --color-medium-gray: hsl(0deg, 0%, 40%);
+  --color-light-gray: hsl(0deg, 0%, 60%);
+  --color-white: hsl(0deg, 0%, 100%);
+}
+.max-width-wrapper {
+  max-width: 700px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  padding: 16px 0 16px 0;
+}
+
+strong {
+  color: var(--color-green);
+}
+
+.intro-chunk {
+  /* border: 1px solid red; */
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 40px;
+  width: 100%;
+  max-width: 350px;
+}
+
+header {
+  border-bottom: 5px solid var(--color-medium-gray);
+}
+
+main {
+  background-color: var(--color-light-gray);
+}
+
+h1 {
+  padding-bottom: 24px;
+}
+
+div.card {
+  background-color: var(--color-white);
+  padding: 16px;
+  padding-left: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+h2 {
+  background-color: var(--color-light-gold);
+  max-width: 400px;
+  border-bottom: 5px solid var(--color-dark-gold);
+  padding: 16px;
+  padding-left: 32px;
+  margin-top: -8px;
+  margin-left: -32px;
+}
