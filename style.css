@@ -44,7 +44,7 @@ strong {
 }
 
 header {
-  border-bottom: 5px solid var(--color-medium-gray);
+  border-bottom: 8px solid var(--color-medium-gray);
 }
 
 main {
@@ -61,12 +61,13 @@ div.card {
   padding-left: 24px;
   margin-top: 32px;
   margin-bottom: 32px;
+  border-bottom: 8px solid var(--color-medium-gray);
 }
 
 h2 {
   background-color: var(--color-light-gold);
   width: fit-content;
-  border-bottom: 5px solid var(--color-dark-gold);
+  border-bottom: 8px solid var(--color-dark-gold);
   padding: 16px;
   padding-left: 32px;
   margin-top: -8px;
