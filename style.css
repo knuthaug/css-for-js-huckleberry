@@ -44,6 +44,8 @@ strong {
 }
 
 header {
+  font-size: 1.25rem;
+  line-height: 1.4;
   border-bottom: 8px solid var(--color-medium-gray);
 }
 
@@ -62,6 +64,11 @@ div.card {
   margin-top: 32px;
   margin-bottom: 32px;
   border-bottom: 8px solid var(--color-medium-gray);
+}
+
+.card p {
+  font-size: 1.25rem;
+  line-height: 1.4;
 }
 
 h2 {
