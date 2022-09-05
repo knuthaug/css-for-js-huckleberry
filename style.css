@@ -65,7 +65,7 @@ div.card {
 
 h2 {
   background-color: var(--color-light-gold);
-  max-width: 400px;
+  width: fit-content;
   border-bottom: 5px solid var(--color-dark-gold);
   padding: 16px;
   padding-left: 32px;
